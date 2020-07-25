@@ -5,7 +5,7 @@
 查看帮助：
 
 ```go
-go run main.go help word
+/.WordConversion help word
 ```
 
 
@@ -23,11 +23,11 @@ go run main.go help word
 5.驼峰转下划线单词
 
 ```go
-go run main.go word -s=lee -m=1
-go run main.go word -s=LEE -m=2
-go run main.go word -s=mr_lee -m=1
-go run main.go word -s=mr_lee -m=1
-go run main.go word -s=MrLee -m=1
+/.WordConversion word -s=lee -m=1
+/.WordConversion word -s=LEE -m=2
+/.WordConversion word -s=mr_lee -m=1
+/.WordConversion word -s=mr_lee -m=1
+/.WordConversion word -s=MrLee -m=1
 
 ```
 
